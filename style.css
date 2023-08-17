@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+canvas {
+  cursor: pointer;
+  animation: Canvas 0.8s;
+}
+
+@keyframes Canvas {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+body {
+  height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
